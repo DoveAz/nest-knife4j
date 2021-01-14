@@ -36,3 +36,4 @@ async function bootstrap(){
 
 then you can browse on  [http://127.0.0.1:3000/doc.html](http://127.0.0.1:3000/doc.html)
 
+![示例](http://static.doveaz.xyz/screenshotexample.png)

@@ -1,14 +1,18 @@
 {
   "name": "nest-knife4j",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "dist/index.js",
   "repository": "github:DoveAz/nest-knife4j",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
     "dev": "tsc -w",
-    "publish": "npm run build && npm publish && git add . && git commit -m auto-commit && git push"
+    "publish": "npm run build && npm publish",
+    "push": "git add . && git commit -m auto-commit && git push"
   },
   "files": [
     "/public",
