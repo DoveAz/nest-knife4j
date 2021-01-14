@@ -3281,19 +3281,7 @@
       ]
     },
     "semanticDiagnosticsPerFile": [
-      [
-        "../index.ts",
-        [
-          {
-            "file": "../index.ts",
-            "start": 75,
-            "length": 9,
-            "messageText": "Cannot find module 'express' or its corresponding type declarations.",
-            "category": 1,
-            "code": 2307
-          }
-        ]
-      ],
+      "../index.ts",
       "../node_modules/@nestjs/common/cache/cache.constants.d.ts",
       "../node_modules/@nestjs/common/cache/cache.module.d.ts",
       "../node_modules/@nestjs/common/cache/decorators/cache-key.decorator.d.ts",
