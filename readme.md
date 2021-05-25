@@ -1,5 +1,10 @@
 ## Usage
 
+```shell
+yarn add swagger-ui-express @nestjs/swagger nest-knife4j
+```
+
+
 in main.ts
 
 ```typescript
