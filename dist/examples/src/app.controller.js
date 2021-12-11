@@ -22,8 +22,10 @@ let AppController = class AppController {
     }
 };
 __decorate([
+    swagger_1.ApiExtension('x-author', 'DoveAz'),
     swagger_1.ApiOperation({
         summary: '哈哈',
+        description: '你好啊',
     }),
     common_1.Get(),
     __metadata("design:type", Function),
@@ -32,7 +34,7 @@ __decorate([
 ], AppController.prototype, "getHello", null);
 AppController = __decorate([
     swagger_1.ApiTags('小猫咪'),
-    common_1.Controller(),
+    common_1.Controller('cat'),
     __metadata("design:paramtypes", [app_service_1.AppService])
 ], AppController);
 exports.AppController = AppController;
