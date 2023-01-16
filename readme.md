@@ -23,16 +23,14 @@ async function bootstrap(){
     .build()
   const document = SwaggerModule.createDocument(app, options)
   SwaggerModule.setup('api', app, document)
-  knife4jSetup(app, {
-    urls: [
-      {
-        name: '2.X版本',
-        url: `/api-json`,
-        swaggerVersion: '3.0',
-        location: `/api-json`,
-      },
-    ],
-  })
+  knife4jSetup(app, [
+    {
+      name: '2.X版本',
+      url: `/api-json`,
+      swaggerVersion: '2.0',
+      location: `/api-json`,
+    },
+  ])
   await app.listen(3000)
   ...
 }
