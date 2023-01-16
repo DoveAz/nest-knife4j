@@ -1,7 +1,7 @@
 {
   "name": "nest-knife4j",
   "version": "1.0.0",
-  "description": "",
+  "description": "nestjs knife4j swagger openapi api doc",
   "main": "dist/index.js",
   "repository": "github:DoveAz/nest-knife4j",
   "publishConfig": {
